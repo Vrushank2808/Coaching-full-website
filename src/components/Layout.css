@@ -1,0 +1,12 @@
+/* Layout Component Styles */
+
+/* Inherits from index.css */
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout main {
+    flex: 1;
+}
