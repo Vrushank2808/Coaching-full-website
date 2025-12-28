@@ -12,6 +12,11 @@
     overflow: hidden;
 }
 
+.courses-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
 .courses-hero .hero-background {
     position: absolute;
     inset: 0;
@@ -133,8 +138,7 @@
     z-index: 40;
 }
 
-color: var(--primary-600);
-}
+
 
 .stat-item strong {
     color: var(--gray-900);

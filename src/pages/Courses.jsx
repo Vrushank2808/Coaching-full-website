@@ -11,7 +11,7 @@ const fadeInUp = {
 };
 
 const staggerContainer = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 1 },
   visible: {
     opacity: 1,
     transition: { staggerChildren: 0.1 }
@@ -37,28 +37,24 @@ const Courses = () => {
   return (
     <div className="courses-page">
       {/* Hero Section */}
-      <motion.section
-        className="courses-hero"
-        initial="hidden"
-        animate="visible"
-        variants={staggerContainer}
-      >
+      {/* Hero Section */}
+      <section className="courses-hero">
         <div className="hero-background">
           <div className="hero-shape shape-1"></div>
           <div className="hero-shape shape-2"></div>
         </div>
         <div className="container">
-          <motion.span className="section-badge" variants={fadeInUp}>
+          <span className="section-badge">
             <GraduationCap size={16} /> Expert-Led Programs
-          </motion.span>
-          <motion.h1 className="courses-title" variants={fadeInUp}>
+          </span>
+          <h1 className="courses-title">
             Our Premium <span className="text-gradient">Courses</span>
-          </motion.h1>
-          <motion.p className="courses-description" variants={fadeInUp}>
+          </h1>
+          <p className="courses-description">
             Scientifically designed curriculum to help you crack the toughest competitive exams with confidence.
-          </motion.p>
+          </p>
         </div>
-      </motion.section>
+      </section>
 
       {/* Stats Section */}
       <motion.section
