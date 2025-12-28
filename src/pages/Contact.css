@@ -1,6 +1,6 @@
 /* Contact Page Styles */
 .contact-page {
-    overflow-x: hidden;
+    /* overflow-x: hidden; - Removed to prevent double scrollbars */
 }
 
 /* Contact Hero */

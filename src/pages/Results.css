@@ -1,6 +1,6 @@
 /* Results Page Styles */
 .results-page {
-    overflow-x: hidden;
+    /* overflow-x: hidden; - Removed to prevent double scrollbars */
 }
 
 /* Results Hero */

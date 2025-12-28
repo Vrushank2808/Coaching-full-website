@@ -1,6 +1,6 @@
 /* Courses Page Styles */
 .courses-page {
-    overflow-x: hidden;
+    /* overflow-x: hidden; - Removed to prevent double scrollbars */
 }
 
 /* Courses Hero */

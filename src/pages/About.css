@@ -1,6 +1,6 @@
 /* About Page Styles */
 .about-page {
-    overflow-x: hidden;
+    /* overflow-x: hidden; - Removed to prevent double scrollbars */
 }
 
 /* About Hero */

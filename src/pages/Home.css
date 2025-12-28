@@ -1,6 +1,6 @@
 /* Home Page Styles */
 .home-page {
-    overflow-x: hidden;
+    /* overflow-x: hidden; - Removed to prevent double scrollbars */
 }
 
 /* Hero Section */
